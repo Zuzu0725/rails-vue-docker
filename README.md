@@ -70,7 +70,18 @@ docker exec -it vue /bin/bash
 vue create .
 ```
 
-### 2. Vueの動作確認  
+### 2. vue-routerのインストール
+```
+vue add router
+```
+
+### 3. Axiosのインストール
+```
+npm install axios vue-axios
+```
+
+
+### 4. Vueの動作確認  
 ```
 npm run serve
 ```
